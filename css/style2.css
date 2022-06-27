@@ -1,0 +1,128 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    /* background-color: rgba(182, 192, 197, 0.322); */
+    background-color: black;
+    color: white;
+}
+
+
+/* hr{
+    border-style: solid ;
+    border-width: 1px;
+    border-color: grey;
+    width: 30%;
+    margin-left: 20px;
+} */
+
+
+/* nav{
+    font-size: 1.2em;
+    padding: 1.2em 0;
+    margin-left: calc(10%/6);
+    text-transform: uppercase;
+    border-bottom: solid 2px #f1f1f1 ;
+    width: 30%;
+    font-family: 'Raleway', sans-serif;
+} */
+
+#mainnavbar {
+    background-color: lightcyan;
+}
+
+#mainnavbar .navbar-brand {
+    font-size: 1rem;
+    background: #D945DE;
+    background: -webkit-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    background: -moz-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    background: linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#mainnavbar .nav-link {
+    transition: 0.1s;
+    color: darkorchid;
+    font-size: normal;
+    font-family: monospace;
+}
+
+@media(min-width: 576px) {
+    #mainnavbar .nav-link:hover {
+        transform: scale(1.1);
+        font-weight: 500;
+        background: #D945DE;
+        background: -webkit-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+        background: -moz-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+        background: linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+#hellogroup h1 {
+    color: #9661FF;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media(max-width: 1000px) {
+    #hellogroup h1 {
+        font-size: 2rem;
+    }
+}
+
+#section2-col2 h2 {
+    background: #D945DE;
+    background: -webkit-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    background: -moz-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    background: linear-gradient(to right, #D945DE 0%, #9661FF 50%, #29CCCC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* font-size: rem; */
+}
+
+#section2-col2 p {
+    /* color: black; */
+    background: #D945DE;
+    background: -webkit-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #2da3a3 100%);
+    background: -moz-linear-gradient(to right, #D945DE 0%, #9661FF 50%, #259b9b 100%);
+    background: linear-gradient(to right, #D945DE 0%, #9661FF 50%, #248f8f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 2;
+    font-weight: 400;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+.navbar.scrolled {
+    /* background-color: rgb(232, 234, 236); */
+    background-color: rgb(246, 249, 250);
+    transition: background .5s;
+}
+
+#text {
+    font-size: x-large;
+    padding-top: 20vh;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+#footer {
+    height: 4vh;
+    background-color: black;
+    border-top: solid white;
+    position: sticky;
+    bottom: 0px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    margin: 10px;
+}
